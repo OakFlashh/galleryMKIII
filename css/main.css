@@ -76,6 +76,11 @@ img,.mainRectangle .background {transition: opacity 0.4s ease;opacity: 1;}
   font-size: 1.2vw;
 }
 
+.topBar a span {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
 .Pixiv {animation: side 2s cubic-bezier(0.3, 0.1, 0.0, 1.0) 2s forwards; margin-left: -150vw;}
 .Drawings {animation: side 2s cubic-bezier(0.3, 0.1, 0.0, 1.0) 1.7s forwards;}
 .Photos {animation: side 2s cubic-bezier(0.3, 0.1, 0.0, 1.0) 1.4s forwards;}
@@ -90,6 +95,14 @@ img,.mainRectangle .background {transition: opacity 0.4s ease;opacity: 1;}
   background: white;
   clip-path: circle(50%);
   animation: side 2s cubic-bezier(0.3, 0.1, 0.0, 1.0) 2.3s forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#darkMode img {
+  width: 90%;
+  height: auto;
 }
 
 .line {
@@ -189,7 +202,7 @@ img,.mainRectangle .background {transition: opacity 0.4s ease;opacity: 1;}
   font-size: 1vw;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 1.55vw;
-  margin-top: -2.9vh;
+  margin-top: -1.9vh;
 }
 
 .infoC {
