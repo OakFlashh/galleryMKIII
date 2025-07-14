@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #171717;
+}
+
+.drawingContainer {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vh;
+  
+}
+
+.drawingContainer .box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.drawingContainer .box2 .dream2 {
+  display: flex;
+  flex-direction: column;
+  width: 32vw;
+  box-sizing: border-box;
+}
+
+.drawingContainer .box2 .dream2 img{
+  display: flex;
+  flex-direction: column;
+  width: 32vw;
+  box-sizing: border-box;
+  padding: 1.25vh;
+  border-radius: 40px;
+}
+
+.dream2 img:hover {
+  transform: scale(102%);
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+}
