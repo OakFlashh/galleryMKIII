@@ -51,3 +51,16 @@ darkModeToggle.addEventListener('click', () => {
     isDark = true;
   }
 });
+
+
+document.getElementById("darkMode").addEventListener("click", () => {
+  const img = document.querySelector("#darkMode img");
+  const originalSrc = "images/night-mode.png";
+  const clickedSrc = "images/night-mode-1.png";
+
+  img.src = clickedSrc;
+
+  setTimeout(() => {
+    img.src = originalSrc;
+  }, 100);
+});
