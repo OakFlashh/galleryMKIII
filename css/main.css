@@ -131,6 +131,11 @@ img,.mainRectangle .background {transition: opacity 0.4s ease;opacity: 1;}
   font-family: Fonty;
   top: 1.6vw;
   transition: color .2s ease;   
+  transition: transform 0.3s ease;
+}
+
+.commissions:hover {
+    transform: scale(1.02);
 }
 
 .infoContainer {
