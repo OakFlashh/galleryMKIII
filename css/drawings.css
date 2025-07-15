@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #171717;
+  overflow-x: hidden;
+}
+
+.drawingContainer {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vh;
+  
+}
+
+.drawingContainer .box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.drawingContainer .box2 .dream2 {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  box-sizing: border-box;
+}
+
+.drawingContainer .box2 .dream2 img{
+  display: flex;
+  flex-direction: column;
+  width: 29vw;
+  box-sizing: border-box;
+  padding: 1.25vh;
+  border-radius: 40px;
+}
+
+.dream2 img:hover {
+  transform: scale(102%);
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+}
+
+.backButton {
+  position: absolute;
+  height: 3.6vw;
+  width: 3.6vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 3vh;
+  left: 1.2vh;
+  border-radius: 50%;
+  border: .3vw solid white;
+  pointer-events: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.backButton:hover {
+  cursor: pointer;
+}
+
+.backButton img{
+  width: 80%;
+  height: auto;
+  margin-right: .3vw;
+}
