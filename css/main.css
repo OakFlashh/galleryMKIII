@@ -117,7 +117,7 @@ img,.mainRectangle .background {transition: opacity 0.4s ease;opacity: 1;}
 }
 
 .line {
-  position: relative;
+  position: absolute;
   background:white;
   height: .7vh;
   width: 72vw;
